@@ -21,6 +21,7 @@ class PurchasesFlutterPlugin {
   static Completer<void>? _initCompleter;
 
   static void _injectScriptIfNeeded() {
+    return;
     if (_initCompleter != null) {
       return;
     }
