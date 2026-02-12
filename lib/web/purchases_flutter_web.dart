@@ -54,6 +54,7 @@ class PurchasesFlutterPlugin {
   }
 
   static void registerWith(Registrar registrar) {
+    return;
     if (!kIsWeb) return;
 
     final channel = MethodChannel(
