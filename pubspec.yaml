@@ -35,6 +35,6 @@ flutter:
         pluginClass: PurchasesFlutterPlugin
       macos:
         pluginClass: PurchasesFlutterPlugin
-      web:
-        pluginClass: PurchasesFlutterPlugin
-        fileName: web/purchases_flutter_web.dart
+      # web:
+      #   pluginClass: PurchasesFlutterPlugin
+      #   fileName: web/purchases_flutter_web.dart
